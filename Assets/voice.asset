@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: voice
+  m_EditorClassIdentifier: 
+  _clientAccessToken: KSWZGKZKQYHVNVEUAZLQLABJLUYH2BVF
+  _appInfo:
+    name: animalcell
+    id: 1609860852833825
+    lang: en
+    isPrivate: 1
+    createdAt: 2023-05-25T19:57:16-0700
+    trainingStatus: 1
+    lastTrainDuration: 411
+    lastTrainedAt: 2023-05-30T04:43:00-0700
+    nextTrainAt: 2023-05-30T04:36:09-0700
+    intents:
+    - id: 929711011599333
+      name: function
+      entities:
+      - name: component:component
+        id: 190608086832125
+      - name: function:function
+        id: 3431226767194280
+      - name: hello:hello
+        id: 1418938838854237
+    entities:
+    - name: component
+      id: 3573262606265762
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: component
+        id: 190608086832125
+      keywords:
+      - keyword: Nicholas
+        synonyms:
+        - nicholas
+      - keyword: RER
+        synonyms:
+        - rer
+      - keyword: SER
+        synonyms:
+        - ser
+      - keyword: apparatus
+        synonyms:
+        - apparatus
+      - keyword: cell membrane
+        synonyms:
+        - cell membrane
+        - plasma membrane
+      - keyword: centriole
+        synonyms:
+        - centriole
+      - keyword: golgi
+        synonyms:
+        - golgi
+      - keyword: lysosome
+        synonyms:
+        - lysosome
+      - keyword: mito
+        synonyms:
+        - mito
+      - keyword: mitochondria
+        synonyms:
+        - mitochondria
+      - keyword: nucleus
+        synonyms:
+        - nucleus
+      - keyword: ribosome
+        synonyms:
+        - ribosome
+      - keyword: rough
+        synonyms:
+        - rough
+      - keyword: rough
+        synonyms:
+        - rough
+      - keyword: smooth
+        synonyms:
+        - smooth
+      - keyword: smooth enterprise
+        synonyms:
+        - smooth enterprise
+      - keyword: vacuole
+        synonyms:
+        - vacuole
+    - name: function
+      id: 733196898605240
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: function
+        id: 3431226767194280
+      keywords:
+      - keyword: function
+        synonyms:
+        - function
+        - purpose
+        - role
+        - task
+        - use
+    - name: hello
+      id: 783963143254621
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: hello
+        id: 1418938838854237
+      keywords:
+      - keyword: Good day
+        synonyms:
+        - good day
+      - keyword: Hey
+        synonyms:
+        - hey
+      - keyword: Hey
+        synonyms:
+        - hey
+      - keyword: Hey
+        synonyms:
+        - hey
+      - keyword: Hi
+        synonyms:
+        - hi
+      - keyword: hello
+        synonyms:
+        - hello
+    traits: []
+    voices:
+    - name: Cael
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Cam
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Carl
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: Cody
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Connor
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Cooper
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Prospector
+      locale: en_US
+      gender: male
+      styles:
+      - default
+    - name: Railey
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Remi
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rubie
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Vampire
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Colin
+      locale: en_CA
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rosie
+      locale: en_CA
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+  _configurationId: 5d6d689b-62f8-460c-8f11-99e61866a044
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-5f438825-eaa8-46ff-95ea-7b62418fc0fe.json
+  excludedAssemblies:
+  - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  relaxedResolution: 0
